@@ -1,2 +1,2 @@
-# TechnologirlMx.github.io
+# Tecnologirl.github.io
 Technologirl's web page
