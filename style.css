@@ -1,0 +1,133 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: rgb(230, 108, 189);
+	color: white;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-nav-img{
+	display: flex;
+	justify-content: flex-start;
+	font-style: italic;
+}
+
+.flex-nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	padding: 2px 12px 0 0;
+}
+
+.a-black{
+	color: rgb(124, 123, 123);
+	text-decoration: none;
+	padding: 2px 12px 0 0;
+}
+
+.hello{
+	font-size: 35px;
+	margin: 15px 0 0 30px;
+	padding: 0;
+	font-style: italic;
+}
+
+.welcome{
+	font-size: 45px;
+	margin: 0px 0 0 45px;
+	padding: 0;
+	font-style: italic;
+}
+
+.welcome-image{
+	margin: 25px 0 0 0;
+}
+
+.welcome-head{
+	display: flex;
+	justify-content: space-around;
+}
+
+.about-me-center{
+	text-align: center;	
+	padding: 35px;
+}
+
+h3{
+	text-align: center;
+	padding: 10px 0 15px 0;
+}
+
+h5{
+	padding: 10px 0 0 0;
+}
+
+img{
+	display: block;
+	margin: auto;
+	padding: 10px 5px 5px 5px;
+
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+
+.subtitle{
+	padding: 0 0 7px 0;
+}
+
+.text{
+	font-style: italic;
+}
+
+.social-media-flex{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.float-left{
+	float:left;
+	width: 20%;
+}
+
+.communities{
+	background-color: rgba(128, 217, 245, 0.835);
+	color:white;
+	padding: 35px;
+}
+
+.hacks{
+	padding: 35px;
+}
+
+/*
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ". header header header header ."
+    ". . main main . ."
+    "footer footer footer footer footer footer";
+}
+*/

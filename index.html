@@ -1,62 +1,112 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Technologirl's website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-		<header>
-			<p>Hello world!</p>
-			<h1>Welcome to Technoland</h1>
-		</header>
-		<section>
-			<h4>About me</h4>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima corporis voluptate perspiciatis nam ea, pariatur impedit delectus sint omnis totam laborum laudantium, cum quidem, nobis quasi commodi cumque eum assumenda!</p>
-		</section>
-		<section>
-			<h3>Communities I belong (&love)</h3>
-			<div>
-				<p>GDG IPN</p>
-				<img src=""></img>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Technologirl's website</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="flex-nav-img">
+				<img src="https://picsum.photos/10">
+				<a href="#">Technologirl</a>
 			</div>
-			<div>
-				<p>WTM</p>
-				<img src=""></img>
+			<div class="flex-nav">
+				<a href="#">About me</a>
+				<a href="#">Community</a>
+				<a href="#">Hacks/Projects</a>
+				<a href="#">Contact</a>
 			</div>
+		</nav>
+		<div class="welcome-head">
+			<div>
+			<p class="hello">Hello world!</p>
+			<h1 class="welcome">Welcome to Technoland</h1>
+			</div>
+			<div class="welcome-image">
+				<img src="./img/github_Tecnologirl.png" width="180">
+			</div>
+		<div>
+	</header>
+	<section class="about-me-center">
+		<h3>About me</h3>
+		<p>¡Hola yo soy Alondra! y te doy la bienvenida a technologirl ;)</p>
+		<p>Estudiante de Ingeniería| Cloud Engineering Analyst | GDG IPN co-organizer | WTM Ambassador</p>
+		<p>Soy una apasionada de la tecnología y me gusta poder compartirlo en distintas formas una de ellas es justamente Technologirl, un proyecto al que le tengo mucho cariño. Me fascina dibujar, es muy relajante. Amo a mis perritus</p>
+	</section>
+	<section class="communities">
+		<h3>Communities</h3>
+		<div class="flex-container">
+			<div class="float-left">
+				<p class="subtitle">GDG IPN</p>
+				<p class="text">Comunidad de desarrolladores, buscamos compartir conocimiento y aprender en conjunto de forma continua, dar herramientas para que los miembros de la comunidad se sientan bienvenidos y crezcan con nosotros.</p>
+				<a href="https://gdg.community.dev/gdg-ipn/">GDG IPN events</a>
+			</div>
+			<div class="float-left">
+				<img class="img-circle" src="./img/logos/GDGIPN.png" width="200"></img>
+			</div>
+			<div class="float-left">
+				<p class="subtitle">Women Techmakers</p>
+				<p class="text">Programa que busca visibilizar a las mujeres que ya estan en el mundo tech, brindandoles recursos para continuar aprendiendo y una communidad en la cual recibir apoyo. </p>
+				<a href="https://www.instagram.com/wtmcdmx/">WTM CDMX</a>
+			</div>
+			<div class="float-left">
+				<img class="img-circle" src="./img/logos/wtm-circle.png" width="200"></img>
+			</div>
+		</div>
 		</section>
-		<section>
+		<section class="hacks">
 			<h3>Hacks&Projects</h3>
-			<div>
-				<img src=""></img>
-				<p>Hack1</p>
-			</div>
-			<div>
-				<img src=""></img>
-				<p>Hack2</p>
-			</div>
-			<div>
-				<img src=""></img>
-				<p>Hack3</p>
-			</div>
-			<div>
-				<img src=""></img>
-				<p>Hack4</p>
-			</div>
-			<div>
-				<img src=""></img>
-				<p>Hack5</p>
+			<div class="flex-container">
+				<div class="float-left">
+					<p>2° lugar | Hackahon Innovacción Televía</p>
+					<img  class="img-circle" src="./img/televia.png" height="150"></img>
+					<p class="text">Modelo predictivo de saldos para resolver problema transaccional de televía. Integrado en un chatbot de Messenger.</p>
+					<a class="a-black"	href="https://www.innovacciontelevia.com.mx/">Web Innovacción Televía</a>
+				</div>
+				<div class="float-left">
+					<p>Reto Experiencia Biométrica | Hack BBVA 2019</p>
+					<img class="img-circle" src="./img/BBVA.png" height="150"></img>
+					<p class="text">Chatbot con prueba de vida para la autenticación y el uso de distintas funciones bancarias desde el mismo. Integrado en messenger.</p>
+					<a class="a-black" href="https://twitter.com/BBVA_Mex/status/1170879342265737221/photo/1">Tweet BBVA</a>
+				</div>
+				<div class="float-left">
+					<p>Reto Experiencia Biométrica | Hack BBVA 2019</p>
+					<img class="img-circle" src="./img/cisco-2019.png" height="150"></img>
+					<p class="text">Mejor uso de tecnología Cisco, usando Mindmeld para el desarrollo del chatbot del Reto Experiencia Biométrica.</p>
+					<a class="a-black" href="https://twitter.com/BBVA_Mex/status/1170879426109857796/photo/1">Tweet BBVA</a>
+				</div>
+				<div class="float-left">
+					<p>Reto Softek | Polython 2019</p>
+					<img class="img-circle" src="./img/softek.png" height="150"></img>
+					<p class="text">BitBot. Plataforma con un dashboard y chatbot integrado para el monitoreo del precio del Bitcoin, integrando alertas personalizadas para precios, ayudando a la compra y venta oportuna de criptomonedas.</p>
+					<a class="a-black" href="https://twitter.com/SofttekMX/status/1102628721209561088">Tweet Softek</a>
+				</div>
+				<div class="float-left">
+				<div>
+					<p>Reto Cisco | Hackathon BBVA 2017</p>
+					<img class="img-circle" src="./img/cisco-2017.png" height="150"></img>
+					<p class="text">Análisis inteligente de logs, presentado en un dashboard y conectado a un chatbot para recibir alertas al equipo específico que debe resolver la situación detectada.</p>
+					<a class="a-black" href="https://twitter.com/BBVA_Mex/status/924815619693862913/photo/1">Tweet BBVA</a>
+				</div>
 			</div>
 		</section>
 		<section>
-			<h3>Social Media</h3>
-			<div>
-				<img src=""></img>
-				<img src=""></img>
-				<img src=""></img>
-				<img src=""></img>
-				<img src=""></img>
+			<h5>Follow me on...</h5>
+			<div class="social-media-flex">
+				<a href="https://www.tiktok.com/@technologirl?lang=es"><img src="./img/logos/tiktok.png">
+				</img></a>
+				<a href="https://www.instagram.com/technologirl/"><img src="./img/logos/instagram.png"></img></a>
+				<a href="https://www.facebook.com/technologirl"><img src="./img/logos/facebook.png"></img></a>
+				<a href="https://twitter.com/tecnologirl"><img src="./img/logos/twitter.png"></img></a>
+				<a href="https://www.youtube.com/channel/UCHSC6VhxvLnUDDqQ8wScY1w"><img src="./img/logos/youtube.png"></img></a>
+				
 			</div>
 		</section>
     <script src="script.js"></script>
